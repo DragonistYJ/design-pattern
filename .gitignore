@@ -2,3 +2,5 @@
 /.idea/
 /singleton/singleton.iml
 /singleton/target/
+/bridge/bridge.iml
+/bridge/target/
