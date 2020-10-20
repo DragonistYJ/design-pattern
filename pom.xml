@@ -12,6 +12,7 @@
         <module>singleton</module>
         <module>bridge</module>
         <module>decorator</module>
+        <module>factory-method</module>
     </modules>
 
 
