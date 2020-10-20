@@ -13,6 +13,7 @@
         <module>bridge</module>
         <module>decorator</module>
         <module>factory-method</module>
+        <module>proxy</module>
     </modules>
 
 
