@@ -15,6 +15,7 @@
         <module>factory-method</module>
         <module>proxy</module>
         <module>simple-factory</module>
+        <module>strategy</module>
     </modules>
 
 
