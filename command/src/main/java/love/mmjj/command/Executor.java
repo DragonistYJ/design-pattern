@@ -1,7 +1,9 @@
 package love.mmjj.command;
 
 /**
- * 执行者，真正执行操作的类
+ * @author YuJian
+ * @date 2020/8/26
+ * @description 执行者，真正执行操作的类
  */
 public class Executor {
     public void cookDinner() {
