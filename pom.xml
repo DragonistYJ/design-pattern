@@ -24,5 +24,6 @@
         <module>simple-factory</module>
         <module>strategy</module>
         <module>command</module>
+        <module>chain-of-responsibility</module>
     </modules>
 </project>
