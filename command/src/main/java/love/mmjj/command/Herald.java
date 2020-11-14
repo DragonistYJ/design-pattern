@@ -5,21 +5,21 @@ import java.util.List;
 
 /**
  * @author YuJian
- * @description 传令员，接收和下达命令的人
  * @since 2020/11/2
+ * 传令员，接收和下达命令的人
  */
 public class Herald {
-    private final List<Command> commands;
+    private final List<AbstractCommand> commands;
 
     public Herald() {
         this.commands = new ArrayList<>();
     }
 
-    public void addCommand(Command command) {
+    public void addCommand(AbstractCommand command) {
         commands.add(command);
     }
 
-    public void cancelCommand(Command command) {
+    public void cancelCommand(AbstractCommand command) {
         commands.remove(command);
     }
 
@@ -27,6 +27,6 @@ public class Herald {
      * 发送指令，真正执行命令
      */
     public void send() {
-        commands.forEach(Command::execute);
+        commands.forEach(AbstractCommand::execute);
     }
 }

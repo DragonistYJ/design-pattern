@@ -2,10 +2,9 @@ package love.mmjj.command;
 
 /**
  * @author YuJian
- * @description
  * @since 2020/11/2
  */
-public class CookDinnerCommand extends Command {
+public class CookDinnerCommand extends AbstractCommand {
     public CookDinnerCommand(Executor executor) {
         super(executor);
     }

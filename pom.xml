@@ -25,5 +25,6 @@
         <module>strategy</module>
         <module>command</module>
         <module>chain-of-responsibility</module>
+        <module>mediator</module>
     </modules>
 </project>

@@ -2,16 +2,15 @@ package love.mmjj.chainofresponsibility;
 
 /**
  * @author YuJian
- * @description
  * @since 2020/11/2
  */
-public abstract class Handler {
+public abstract class AbstractHandler {
     /**
      * 继任者，下一个处理者
      */
-    protected Handler successor;
+    protected AbstractHandler successor;
 
-    public void setSuccessor(Handler successor) {
+    public void setSuccessor(AbstractHandler successor) {
         this.successor = successor;
     }
 

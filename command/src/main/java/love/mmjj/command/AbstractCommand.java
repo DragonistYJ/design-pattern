@@ -2,13 +2,13 @@ package love.mmjj.command;
 
 /**
  * @author YuJian
- * @description 一条命令，由其中的命令执行者来执行
  * @since 2020/11/2
+ * 一条命令，由其中的命令执行者来执行
  */
-public abstract class Command {
+public abstract class AbstractCommand {
     protected Executor executor;
 
-    public Command(Executor executor) {
+    public AbstractCommand(Executor executor) {
         this.executor = executor;
     }
 

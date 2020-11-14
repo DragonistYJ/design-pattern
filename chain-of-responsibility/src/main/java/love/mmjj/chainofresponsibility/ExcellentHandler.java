@@ -2,10 +2,9 @@ package love.mmjj.chainofresponsibility;
 
 /**
  * @author YuJian
- * @description
  * @since 2020/11/2
  */
-public class ExcellentHandler extends Handler {
+public class ExcellentHandler extends AbstractHandler {
     @Override
     public void handleRequest(int request) {
         if (request >= 80 && request <= 100) {

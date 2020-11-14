@@ -3,13 +3,12 @@ package love.mmjj.simplefactory;
 import java.util.Optional;
 
 /**
- * @Author: YuJian
- * @Datetime: 2020/8/24 16:04
- * @Description
+ * @author YuJian
+ * @since 2020/8/24 16:04
  */
 public class OperationFactory {
-    public static Optional<Operation> getOperation(String opCode) {
-        Optional<Operation> operation = Optional.empty();
+    public static Optional<AbstractOperation> getOperation(String opCode) {
+        Optional<AbstractOperation> operation;
         switch (opCode) {
             case "+":
                 operation = Optional.of(new OperationAdd());
@@ -17,6 +16,8 @@ public class OperationFactory {
             case "-":
                 operation = Optional.of(new OperationSub());
                 break;
+            default:
+                throw new IllegalArgumentException("operation code not illegal");
         }
         return operation;
     }

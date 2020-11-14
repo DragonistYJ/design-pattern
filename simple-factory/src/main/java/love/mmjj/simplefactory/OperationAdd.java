@@ -1,11 +1,10 @@
 package love.mmjj.simplefactory;
 
 /**
- * @Author: YuJian
- * @Datetime: 2020/8/24 16:02
- * @Description
+ * @author YuJian
+ * @since 2020/8/24 16:02
  */
-public class OperationAdd extends Operation {
+public class OperationAdd extends AbstractOperation {
     @Override
     public double getResult() {
         return getNumberA().add(getNumberB()).doubleValue();
