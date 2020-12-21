@@ -27,5 +27,6 @@
         <module>chain-of-responsibility</module>
         <module>mediator</module>
         <module>flyweight</module>
+        <module>interpreter</module>
     </modules>
 </project>
